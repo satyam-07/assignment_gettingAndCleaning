@@ -1,0 +1,16 @@
+---
+title: "README"
+author: "SatyamKr"
+date: "07/08/2020"
+output: word_document
+---
+### Data description
+The variables in the data X are sensor signals measured with waist-mounted smartphone from 30 subjects. The variable in the data Y indicates activity type the subjects performed during recording.
+
+### CODE ACTIONS
+1. it reads the training and the testing sets
+2. it merges the x set, y set and the subject sets
+3. it extracts the mean and the standard deviations only
+4. it assigns nanmes to the acivities factors
+5. it assigns names to the variables in the dataset
+6. it takes mean of each activity in each variable after grouping the dataset by the activity and subjects
